@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Ad /> should match snapthot 1`] = `
+<Col
+  lg={
+    Object {
+      "span": 4,
+    }
+  }
+  md={
+    Object {
+      "span": 6,
+    }
+  }
+  sm={
+    Object {
+      "span": 12,
+    }
+  }
+  xs={
+    Object {
+      "span": 24,
+    }
+  }
+>
+  <Styled(Card)
+    actions={false}
+    cover={
+      <Link
+        replace={false}
+        to="/ad/1"
+      >
+        <styled.div>
+          <styled.img
+            alt="Title"
+            className="lazyload"
+            data-src="Image"
+            src="https://res.cloudinary.com/selli/image/upload/h_150/placeholder.png"
+          />
+        </styled.div>
+      </Link>
+    }
+    hoverable={true}
+  >
+    <Link
+      replace={false}
+      to="/ad/1"
+    >
+      <_default
+        description="$200"
+        title="Title"
+      />
+    </Link>
+  </Styled(Card)>
+</Col>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdListTitle /> should match snapthot 1`] = `
+<Row
+  gutter={16}
+>
+  <Ad
+    ad={
+      Object {
+        "_id": 1,
+      }
+    }
+    handleRemove={[Function]}
+    key="1"
+    withRemove={false}
+  />
+  <Ad
+    ad={
+      Object {
+        "_id": 2,
+      }
+    }
+    handleRemove={[Function]}
+    key="2"
+    withRemove={false}
+  />
+</Row>
+`;
+
+exports[`<AdListTitle /> should match snapthot 2`] = `
+<AdListTitle
+  small={true}
+  text="Sorry, we didn't find any results."
+/>
+`;

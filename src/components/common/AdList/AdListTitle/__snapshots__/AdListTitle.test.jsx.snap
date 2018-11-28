@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdListTitle /> should match snapthot 1`] = `
+<styled.h2>
+  Hello
+</styled.h2>
+`;

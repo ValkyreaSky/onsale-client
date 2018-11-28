@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "node"
+
+branches:
+  only:
+    - master
+    - develop
+
+script: npm test
+
+after_success:
+  - npm run test:cov
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
